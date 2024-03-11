@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handin: Responsive Redesign</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!-- Introduction Section -->
+        <div class="introduction">
+            <img src="./assets/linkedin-pic-vishak.png" alt="Profile Picture" class="profile-picture">
+            <h2>I'm Vishak Vinod!</h2>
+            <p>Graduate student at Brown University based out of Providence, Rhode Island with prior experience designing and executing data intensive applications</p>
+            
+        </div>
+
+        <!-- Analyzing the Webpage Section -->
+        <div class="analyzing-webpage">
+            <h2>Analyzing the Webpage</h2>
+            <p> Having had to interact a lot with the immigration website of the Department of State as an international student applying for a permit to the United
+                States, I found it unintuitive and visually unappealing. A decision was made to design it better keeping in mind design principles for a class project. Problems were identified and solutions were designed in the areas of spacing, labelling and organizing the sites information architecture.</p>
+            <img src="./assets/Current-State-Webpage.png" alt="Current-Webpage" class="analysis-image">
+            <div class="button-container">
+                <a href="https://ceac.state.gov/genniv/" class="custom-button">USDOS Website</a>
+            </div>
+            <!-- WAVE Report Subsection -->
+            <div class="wave-report">
+                <h3>To better understand the condition of the webpage, a WAVE report was generated</h3>
+                <img src="./assets/WAVE-Report-Currentpage.png" alt="WAVE-Report-Current" class="wave-report-image">
+                
+            </div>
+            <div class="analysis-findings">
+                <h3>Having looked at the webpage and the WAVE report, A list of findings were compiled as follows:</h3> 
+                <ul>
+                    <li>Lots of empty space to the right of the webpage</li>
+                    <li>Select Tooltip Language Text on the top right of the screen was in the same color as it’s background</li>
+                    <li>Breadcrumb and Title of the page are placed next to each other and with similar wording. Looks repetitive to the user</li>
+                    <li>Underlined text in between links that is not a link</li>
+                    <li>Unclear on where to start reading. What to go through first</li>
+                    <li>Tooltip dropdown is not visible</li>
+                    <li>When you hover over the globe, you get an option to filter out dropdown selections but it’s not intuitive</li>
+                    <li>After clicking a region on the globe, The screen does not reflect the selection. The user might hesitate before clicking on the country and finding a filtered list</li>
+                    <li>Clicking on the captcha takes you to a screen giving information on what a captcha is instead of making the captcha larger or generating a new captcha. After reaching this screen, the user can’t go back to the home page and will have to reopen the window in a new tab</li>
+                    <li>After selecting the country in the dropdown, the tooltip changed to the native language of that country and left the user in the dark about this change. Not only that,it overwrote the language preference set above.</li>
+                
+                </ul>
+            </div>
+        </div>
+
+        <!-- Speed Sketches Section -->
+        <div class="speed-sketches">
+            <h2>Brainstorming with Speed Sketches</h2>
+            <p>Speed sketching Process:</p>
+            <ul>
+                <li>Create a 3x3 grid</li>
+                <li>Set a timer and set it to 9 minutes. Start it.</li>
+                <li>Sketch out redesigns of the page that is to be changed. These are very rough brainstorming images</li>
+                <li>Come up with 9 redesigns before the timer runs out. Ideally, each redesign should take no longer than one minute, and be as unique as possible. </li>
+            </ul>
+            <div class="sketches-container">
+                <img src="./assets/Spped-Sketch-Grid.png" alt="Speed Sketch Initial" class="sketch-image">
+                <img src="./assets/Speed-Sketch-Final.png" alt="Speed Sketch Final" class="sketch-image">
+            </div>
+        </div>
+
+
+        <!-- Low-Fidelity Wireframes Section -->
+        <div class="low-fidelity-wireframes">
+            <h2>Low-Fidelity Wireframes</h2>
+            <p>After speed sketching and listing out problems with the webpage UI, solutions were compiled and Lo-Fi mocks were made for desktop, tablet, and mobile</p>
+            
+            <div class="wireframes-container">
+                <div class="wireframe-wrapper">
+                    <img src="./assets/Desktop-Lo-Fi.png" alt="Wireframe 1" class="wireframe-image">
+                    <figcaption><strong>Desktop</strong></figcaption>
+                </div>
+                <div class="wireframe-wrapper">
+                    <img src="./assets/Tablet-Lo-Fi.png" alt="Wireframe 2" class="wireframe-image">
+                    <figcaption><strong>Tablet</strong></figcaption>
+                </div>
+                <div class="wireframe-wrapper">
+                    <img src="./assets/Mobile-Lo-Fi.png" alt="Wireframe 3" class="wireframe-image">
+                    <figcaption><strong>Mobile</strong></figcaption>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+
+        <!-- Style Guide Section -->
+        <div class="style-guide">
+            <h2>Style Guide</h2>
+            <img src="./assets/Typography.png" alt="Typography" class="style-guide-image">
+            <img src="./assets/Buttons.png" alt="Buttons" class="style-guide-image">
+            <img src="./assets/Colors.png" alt="Colors" class="style-guide-image">
+            <img src="./assets/Fields.png" alt="Fields" class="style-guide-image">
+            <img src="./assets/Grids.png" alt="Grids" class="style-guide-image">
+        </div>
+
+        <!-- Hi-Fi Mocks Section -->
+        <div class="hi-fi-mocks">
+            <h2>Hi-Fi Mockups</h2>
+            <p>Finally High Fidelity Mockups of the newly designed webpage were created</p>
+            <div class="hifimockups-container">
+                <figure>
+                    <figcaption>Desktop</figcaption>
+                    <img src="./assets/Desktop-Hi-Fi.png" alt="Desktop-Hi-Fi" class="hifimockup-image">
+                </figure>
+                <figure>
+                    <figcaption>Tablet</figcaption>
+                    <img src="./assets/Tablet--Hi-Fi.png" alt="Tablet--Hi-Fi" class="hifimockup-image">
+                    
+                </figure>
+                <figure>
+                    <figcaption>Mobile</figcaption>
+                    <img src="./assets/Mobile-Hi-Fi.png" alt="Mobile-Hi-Fi" class="hifimockup-image-mobile">
+                    
+                </figure>
+            </div>
+            <a href="https://vishbrown.github.io/CS1300/" class="custom-button">
+                Improved Webpage
+            </a>
+            <div class="New_WAVE_Doc">
+                <h3> New Wave Report </h3>
+                <img src="./assets/New_Wave_Report.png" alt="New Wave Report" class="wave-report-image">
+            </div>
+        </div>
+        
+        
+        
+    </main>
+
+    <footer>
+        <p>CS-1300 Responsive Redesign Handin</p>
+    </footer>
+</body>
+</html>
